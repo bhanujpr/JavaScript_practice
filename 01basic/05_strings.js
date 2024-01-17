@@ -18,16 +18,17 @@ const newStr = gameName.substring(0,5)
 
 const newStr2=gameName.slice(0,7);//can use negative indices
 // console.log(newStr2)
+// console.log(gameName)
 
-const newStringOne="     Bhanu   "
+const newStringOne="     Bhanu   ji  h"
 // console.log(newStringOne)
-// console.log(newStringOne.trim())//dont change origina; value
+console.log(newStringOne.trim())//dont change origina; value
 // console.log(newStringOne)
 
 
 
 const url="https://hites.com/hites%20choudhary"
-console.log(url.replace('%20','-'))//do not change original
-console.log(url.includes('ha'))
-console.log(url)
+// console.log(url.replace('%20','-'))//do not change original
+// console.log(url.includes('ha'))
+// console.log(url)
 console.log(url.split('/'))

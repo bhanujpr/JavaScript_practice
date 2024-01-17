@@ -47,7 +47,7 @@ const str1=logInUserMsg()
 function calculateCartPrice(...num1){
     return num1
 }
-// console.log(calculateCartPrice(100,200,3000,44,44,4,555))
+console.log(calculateCartPrice(100,200,3000,44,44,4,555))
 
 
 const user={
@@ -56,6 +56,6 @@ const user={
 }
 
 function handleObject(anyobject){
-    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+    // console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
 }
 handleObject(user)

@@ -1,12 +1,14 @@
-// // let score = "33qqq"
+let score = "33qqq"
 // // let score = null
 // let score = undefined
 // console.log(typeof score)
 // console.log(typeof(score))
 
-// let valueInNumber = Number(score)
+let valueInNumber = Number(score)
+let num4=toString(valueInNumber)
 // console.log(typeof valueInNumber)
 // console.log(valueInNumber)
+console.log(num4)
 
 
 // //"33"=>33
@@ -61,4 +63,4 @@ num1=num2=num3=2+2
 let gameCounter=100
 ++gameCounter
 gameCounter++//for more prefix postfix check MDN
-console.log(gameCounter)
+// console.log(gameCounter)
