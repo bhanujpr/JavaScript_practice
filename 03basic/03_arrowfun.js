@@ -1,13 +1,14 @@
 //this keyword tells about current context
 
-const user={
-    userName:"Hitesh",
-    price:999,
-    welcomeMessage:function(){
-        console.log(`${this.userName},welcome to website`)
-        console.log(this)
-    }
-}
+// const user={
+//     userName:"Hitesh",
+//     price:999,
+//     welcomeMessage:function(){
+//         console.log(`${this.userName},welcome to website`)
+//         console.log(this)
+//     }
+// }
+
 // user.welcomeMessage()
 // user.userName="Bhanu"
 // user.welcomeMessage()
